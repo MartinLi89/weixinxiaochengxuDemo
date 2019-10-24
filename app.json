@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/flutes/fluteintex",
     "pages/databind/databinds",
     "pages/indexaa/indexaa",
     "pages/keyan/keyan",
@@ -10,7 +9,7 @@
     "pages/sanceqi/sanseqi",
     "pages/jishiqi/jishiji",
     "pages/wendu/wenduhuansuan",
-   
+    "pages/flutes/fluteintex",
     "pages/layouts/layout1",
     "pages/catmiao/miaomiaomiao",
     "pages/fonts_text/fonts",
