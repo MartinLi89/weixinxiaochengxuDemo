@@ -1,0 +1,90 @@
+/* pages/flutes/fluteintex.wxss */
+
+.bg1 {
+  /* 背景1 */
+  height: 240px;
+  width: 200px;
+  background-color: rgba(184, 211, 30, 0.082);
+  margin: 10px auto; /*上下边距10px,左右边距平均分配 实现水平居中对齐*/
+}
+
+.box1 {
+  /* 背景1中的第一个颜色块 */
+  width: 100px;
+  height: 80px;
+  background-color: red;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 80px;
+}
+
+.box2 {
+  /* 背景1中的第二个颜色块 */
+  width: 100px;
+  height: 80px;
+  background-color: yellow;
+  float: left; /*左浮动*/
+  text-align: center;
+  line-height: 80px;
+}
+
+.box3 {
+  /* 背景1中的第二个颜色块 */
+  width: 100px;
+  height: 80px;
+  background-color: rgb(52, 171, 175);
+  float: right; /*左浮动*/
+  text-align: center;
+  line-height: 80px;
+}
+
+.box4 {
+  width: 100px;
+  height: 80px;
+  background-color: greenyellow;
+  clear: both; /*清除左右两边浮动*/
+  margin: 0 auto;
+  text-align: center;
+  line-height: 80px;
+}
+
+.bg2 {
+  height: 400rpx;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.header {
+  /*头部导航区*/
+  line-height: 100rpx; /*定义行高,同时实现文字垂直方向 居中对齐*/
+  background-color: red;
+}
+
+.leftBar {
+  /*左边导航区*/
+  width: 20%;
+  line-height: 200rpx; /*定义行高,同时实现文字垂直方向 居中对齐*/
+  background-color: yellow;
+  float: left; /*左浮动*/
+}
+
+.main {
+  width: 60%;
+  line-height: 200rpx;
+  background-color: rgb(52, 255, 0);
+  float: left;
+}
+
+.rightBar {
+  /*右边导航区*/
+  width: 20%;
+  line-height: 200rpx;
+  background-color: yellow;
+  float: right; /*右浮动*/
+}
+
+.footer {
+  line-height: 100rpx;
+  background-color: red;
+  clear: both;
+}

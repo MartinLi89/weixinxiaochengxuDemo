@@ -1,0 +1,21 @@
+<!--pages/fonts_text/fonts.wxml-->
+<view class="box">
+  <view class="title">
+    文本样式
+  </view>
+
+  <view class="textStyle01">
+    发的发生的方式发放
+
+  </view>
+  ===============
+  <view class="textStyle02">
+
+
+    fafdfsaaaaaaaaaaaaaaffdf
+
+  </view>
+
+
+
+</view>

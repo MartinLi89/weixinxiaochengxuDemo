@@ -1,0 +1,11 @@
+<!--pages/sanceqi/sanseqi.wxml-->
+<view class="box">
+  <view class="title"> 变化的三色旗</view>
+  <view class='body'>
+    <view class='item' style="background-color:{{color1}}"> </view>
+    <view class='item' style="background-color:{{color2}}"> </view>
+    <view class='item' style="background-color:{{color3}}"> </view>
+  </view>
+
+  <button class="btn" bindtap="changeColor" type="primary"> 改变颜色</button>
+</view>

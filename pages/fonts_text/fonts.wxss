@@ -1,0 +1,6 @@
+/* pages/fonts_text/fonts.wxss */
+
+input {
+  margin: 20px 0;
+  border-bottom: 1px solid blue; /*设置input组件下边框粗细为1px,实心,蓝色*/
+}

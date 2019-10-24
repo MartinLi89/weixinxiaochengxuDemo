@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/flutes/fluteintex",
+    "pages/databind/databinds",
+    "pages/indexaa/indexaa",
+    "pages/keyan/keyan",
+    "pages/zixun/zixun",
+    "pages/guanyu/guanyu",
+    "pages/jiaoxue/jiaoxue",
+    "pages/sanceqi/sanseqi",
+    "pages/jishiqi/jishiji",
+    "pages/wendu/wenduhuansuan",
+   
+    "pages/layouts/layout1",
+    "pages/catmiao/miaomiaomiao",
+    "pages/fonts_text/fonts",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MyDemo",
+    "navigationBarTextStyle": "black"
+    
+  },
+  "sitemapLocation": "sitemap.json",
+  
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#00f",
+    
+    "list": [
+      
+      {
+        "pagePath": "pages/indexaa/indexaa",
+        "text": "首页",
+        "iconPath": "/images/home_unselect.png",
+        "selectedIconPath": "/images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/jiaoxue/jiaoxue",
+        "text": "教学",
+        "iconPath": "/images/iconfont-cart_unselect.png",
+        "selectedIconPath": "/images/iconfont-cart_selected.png"
+      },
+      {
+        "pagePath": "pages/keyan/keyan",
+        "text": "科研",
+        "iconPath": "/images/iconfont-tel_unselect.png",
+        "selectedIconPath": "/images/iconfont-tel_selected.png"
+      },
+      {
+        "pagePath": "pages/zixun/zixun",
+        "text": "咨询",
+        "iconPath": "/images/setting_unselect.png",
+        "selectedIconPath": "/images/setting_selected.png"
+      },
+      {
+        "pagePath": "pages/guanyu/guanyu",
+        "text": "关于",
+        "iconPath": "/images/info_unselect.png",
+        "selectedIconPath": "/images/info_selected.png"
+      }
+    ]
+  }
+}

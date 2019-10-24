@@ -1,0 +1,11 @@
+<!--pages/catmiao/miaomiaomiao.wxml-->
+<view class="box">
+
+  <view class="title" bindtap="startss">
+
+    猫图
+  </view>
+  <view>
+    {{imgSrc}}
+  </view>
+</view>

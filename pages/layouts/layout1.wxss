@@ -1,0 +1,82 @@
+/* pages/layouts/layout1.wxss */
+
+.horesental_layout1 {
+  display: flex;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.h1_left {
+  background-color: red;
+  flex-grow: 1;
+}
+
+.h1_mid {
+  background-color: green;
+  flex-grow: 1;
+}
+
+.h1_right {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+.mix_layout2 {
+  display: flex;
+  height: 300rpx;
+  text-align: center;
+}
+
+.h1_left2 {
+  background-color: red;
+  width: 250rpx;
+  line-height: 300rpx;
+}
+
+.h1_right_top2 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  line-height: 150rpx;
+}
+
+.h1_right_top1 {
+  background-color: green;
+  flex-grow: 1;
+}
+
+.h1_right_bottom2 {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+.mix_up_layout3 {
+  display: flex;
+  flex-direction: column;
+  line-height: 300rpx;
+  text-align: center;
+}
+
+.h1_top3 {
+  background-color: red;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.h1_bottom {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.h1_left_down3 {
+  background-color: green;
+  flex-grow: 1;
+}
+
+.h1_right_down3 {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+

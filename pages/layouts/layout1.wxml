@@ -1,0 +1,28 @@
+<!--pages/layouts/layout1.wxml-->
+<view class="box">
+  <view class="title"> 页面布局示例</view>
+  <view class="horesental_layout1">
+    <view class="h1_left">1</view>
+    <view class="h1_mid">2</view>
+    <view class="h1_right">3</view>
+  </view>
+
+  <view class="mix_layout2" style="margin-top:20rpx">
+    <view class="h1_left2">1</view>
+    <view class="h1_right_top2">
+      <view class="h1_right_top1">2</view>
+      <view class="h1_right_bottom2">3</view>
+    </view>
+  </view>
+  <view class="mix_up_layout3" style="margin-top:20rpx">
+    <view class="h1_top3">1</view>
+
+    <view class="h1_bottom">
+      <view class="h1_left_down3">2</view>
+      <view class="h1_right_down3">3</view>
+    </view>
+  </view>
+
+
+
+</view>

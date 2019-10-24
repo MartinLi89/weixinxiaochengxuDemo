@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="cdefghijk">
+  <view class="title"> 字体样式设置</view>
+
+
+  <view style="font-family:sans-serif; font-size:30px">
+    <view>
+      利用style 设置样式
+
+    </view>
+
+    <view>
+      利用view 设置字体 sans-serif,20像素
+    </view>
+  </view>
+  ============
+
+  <view class="box">
+
+    <view>
+      利用class 设置字体样式
+    </view>
+    <view>
+      字体cursive,25像素,加粗 倾斜
+    </view>
+  </view>
+</view>

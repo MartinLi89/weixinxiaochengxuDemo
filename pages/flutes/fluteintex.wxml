@@ -1,0 +1,38 @@
+<!--pages/flutes/fluteintex.wxml-->
+<view class="box">
+  <view class="title">
+    FLOAT 布局的使用
+
+  </view>
+  <view class="bg1">
+    <view class="box1" bindtap="getResource"> 登录</view>
+    <view class="box2" bindtap="signing" >签入</view>
+    <view class="box3" bindtap="callOut"> 外呼</view>
+    <view class="box4" bindtap="base64"> base64</view>
+
+
+  </view>
+  <scroll-view class="bg2">
+
+    <view class="header">header</view>
+    <view class="leftBar">leftBar</view>
+    <view class="main">main</view>
+    <view class="rightBar">rightBar</view>
+    <view class="footer">footer</view>
+
+
+    <button bindtap="getResource "> 登录</button>
+    <button bindtap="testUrl"> test</button>
+
+    <button bindtap="desTest"> desTest</button>
+
+    <button bindtap="base64"> base64</button>
+
+
+
+  </scroll-view >
+
+
+
+
+</view>
