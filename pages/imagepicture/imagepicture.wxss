@@ -1,0 +1,11 @@
+/* pages/imagepicture/imagepicture.wxss */
+.imgLayout{
+  text-align: center;
+  margin: 5px 0;
+}
+
+image{
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+}

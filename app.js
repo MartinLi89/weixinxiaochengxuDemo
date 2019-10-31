@@ -48,5 +48,9 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+  globalMsg: '全局变量 app.js',
+  globalFunc: function() {
+    return "全局函数 app.js"
   }
 })

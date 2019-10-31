@@ -1,0 +1,34 @@
+<!--pages/wxfortest/wxfortest.wxml-->
+<view style='margin:20px;text-align:center'>
+  <view> 绑定数组渲染</view>
+  <view wx:for='{{array}}' wx:key='index' bindtap="funccccc" data-index="{{index}}" data-abce="{{item}}">
+    <view>array[{{index}}] :{{item}}</view>
+  </view>
+  ---------------------------
+  <view> 直接数组渲染</view>
+  <view wx:for="{{[' 春 ','夏 ','秋 ','冬 ']}}" wx:key='index'>
+    array[{{index}}] :{{item}}
+  </view>
+  ---------------------------
+  <view>对象渲染</view>
+
+  <view wx:for='{{object}}' wx:key='index'>
+    {{index}}:{{item}}
+  </view>
+
+  ---------------------------
+
+  <view>字符串渲染及index和item重命名</view>
+  <view wx:for="李苏阳" wx:for-index='i' wx:for-item='j' wx:key='i'>
+    array[{{i}}]:{{j}}
+
+  </view>
+  ---------------------------
+  <view>利用block渲染多节点结构块</view>
+  <block wx:for="{{[1,2]}}" wx:key='index'>
+    <view class='view-item bc-red'> </view>
+    <view class='view-item bc-blue'> </view>
+    <view class='view-item  bc-green'> </view>
+  </block>
+
+</view>

@@ -1,5 +1,13 @@
 {
   "pages": [
+    "pages/facechange/facechange",
+    "pages/imagepicture/imagepicture",
+    "pages/sanjiliandong/sanjiliandong",
+    "pages/swiper/swipers",
+    "pages/wxform/wxforms",
+    "pages/wxfortest/wxfortest",
+    "pages/colorif/colorif",
+    "pages/modulechange/modulechange",
     "pages/databind/databinds",
     "pages/indexaa/indexaa",
     "pages/keyan/keyan",

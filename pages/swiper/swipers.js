@@ -1,40 +1,38 @@
-// pages/databind/databinds.js
+// pages/swiper/swipers.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    a: 1, //修改绑定的普通数据的值
-    b: 2,
-    c: 3,
-    Student: { //修改绑定的对象数据的值
-      stuID: '1',
-      name: '李2',
-      birthday: '2001-5-1'
-    },
-    array: [ //修改绑定的数组数据的值
-      '20181',
-      '20291',
-      '20301'
-    ]
-  },
-  modify: function() { //事件函数
-    this.setData({ //修改绑定数据的值
-      a: 100, //修改绑定的普通数据的值
-      b: 200,
-      c: 300,
-      Student: { //修改绑定的对象数据的值
-        stuID: '20190213',
-        name: '李四',
-        birthday: '2001-9-1'
-      },
-      array: [ //修改绑定的数组数据的值
-        '2018',
-        '2029',
-        '2030'
-      ]
+    background: ['bc-red', 'bc-green', 'bc-blue'],
+    indicatorDots: true,
+    autoplay: false,
+    circular: false,
+    vertical: false,
+    interval: 2000,
+    duration: 500,
 
+  },
+  changeIndicatorDots: function(e) {
+    this.setData({
+      indicatorDots: !this.data.indicatorDots
+    })
+
+  },
+  changeAutoplay: function(e) {
+    this.setData({
+      autoplay: !this.data.autoplay
+    })
+  },
+  changeCircular: function(e) {
+    this.setData({
+      circular: !this.data.circular
+    })
+  },
+  changeVertical: function(e) {
+    this.setData({
+      vertical: !this.data.vertical
     })
   },
 
@@ -49,7 +47,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function() {
-    // this.modify()
+
   },
 
   /**

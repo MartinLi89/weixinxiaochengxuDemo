@@ -1,42 +1,19 @@
-// pages/databind/databinds.js
+// pages/wxfortest/wxfortest.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    a: 1, //修改绑定的普通数据的值
-    b: 2,
-    c: 3,
-    Student: { //修改绑定的对象数据的值
-      stuID: '1',
-      name: '李2',
-      birthday: '2001-5-1'
-    },
-    array: [ //修改绑定的数组数据的值
-      '20181',
-      '20291',
-      '20301'
-    ]
-  },
-  modify: function() { //事件函数
-    this.setData({ //修改绑定数据的值
-      a: 100, //修改绑定的普通数据的值
-      b: 200,
-      c: 300,
-      Student: { //修改绑定的对象数据的值
-        stuID: '20190213',
-        name: '李四',
-        birthday: '2001-9-1'
-      },
-      array: [ //修改绑定的数组数据的值
-        '2018',
-        '2029',
-        '2030'
-      ]
+    array: ["张三", "李四", "王五", "赵六"],
+    object: {
+      '姓名': '张三',
+      '学号': '200112',
+      "性别": '男'
 
-    })
+    }
   },
+ 
 
   /**
    * 生命周期函数--监听页面加载
@@ -49,7 +26,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function() {
-    // this.modify()
+
   },
 
   /**
@@ -92,5 +69,8 @@ Page({
    */
   onShareAppMessage: function() {
 
-  }
+  },
+  funccccc: function (action) {
+    console.log(action.currentTarget.dataset.index)
+  },
 })

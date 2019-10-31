@@ -1,0 +1,8 @@
+<!--pages/facechange/facechange.wxml-->
+<view class="box">
+  <view class="title">变脸游戏</view>
+
+  <view class="layoutPicture">
+    <image src="{{imgArr[index].url}}" bindtap="changeFace" mode="widthFix"> </image>
+  </view>
+</view>

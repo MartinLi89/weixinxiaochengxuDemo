@@ -87,6 +87,25 @@ const signin = (urls, umIds, callback) => {
   })
 }
 
+const getImageSorce = (urls) => {
+  console.log(urls)
+  return new Promise(function(onsuccess, onfail) {
+    wx.request({
+      url: urls,
+      method: 'get',
+      dataType: 'json',
+      success: (res) => {
+        onsuccess(res.data)
+      },
+      fail: (err) => {
+      
+        onfail(err)
+      }
+
+    })
+  })
+}
+
 /**
  * 外呼打电话
  * urls 
@@ -152,4 +171,5 @@ module.exports = {
   login,
   signin,
   dialOut,
+  getImageSorce,
 }

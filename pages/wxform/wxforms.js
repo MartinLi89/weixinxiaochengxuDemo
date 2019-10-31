@@ -1,40 +1,33 @@
-// pages/databind/databinds.js
+// pages/wxform/wxforms.js
+var C; //定义全局变量,用于存放人命币的值
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    a: 1, //修改绑定的普通数据的值
-    b: 2,
-    c: 3,
-    Student: { //修改绑定的对象数据的值
-      stuID: '1',
-      name: '李2',
-      birthday: '2001-5-1'
-    },
-    array: [ //修改绑定的数组数据的值
-      '20181',
-      '20291',
-      '20301'
-    ]
-  },
-  modify: function() { //事件函数
-    this.setData({ //修改绑定数据的值
-      a: 100, //修改绑定的普通数据的值
-      b: 200,
-      c: 300,
-      Student: { //修改绑定的对象数据的值
-        stuID: '20190213',
-        name: '李四',
-        birthday: '2001-9-1'
-      },
-      array: [ //修改绑定的数组数据的值
-        '2018',
-        '2029',
-        '2030'
-      ]
 
+  },
+  calc: function(e) { //计算按钮事件函数
+    C = parseInt(e.detail.value.cels); //将input组件的value值转化为整数类型,并赋值
+    this.setData({
+      M: (C / 6.8801).toFixed(4), //小数点后保留4位有效数字
+      Y: (C / 8.7873).toFixed(4), //小数点后保留4位有效数字
+      G: (C / 0.8805).toFixed(4), //小数点后保留4位有效数字
+      O: (C / 7.8234).toFixed(4), //小数点后保留4位有效数字
+      H: (C / 0.0061).toFixed(4), //小数点后保留4位有效数字
+      R: (C / 0.0610).toFixed(4), //小数点后保留4位有效数字
+
+    })
+  },
+  reset: function() {
+    this.setData({
+      M: "",
+      Y: "",
+      G: "",
+      O: "",
+      H: "",
+      R: "",
     })
   },
 
@@ -49,7 +42,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function() {
-    // this.modify()
+
   },
 
   /**

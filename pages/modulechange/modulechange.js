@@ -1,41 +1,24 @@
-// pages/databind/databinds.js
+// pages/modulechange/modulechange.js
+const app = getApp() //获取全局应用实例
+var util = require('../util_test/util_test.js') //获取util_test模块应用实例
+var indexMsg = '我是来自index.js的变量'; //定义本模块的变量
+function indexFunc() { //定义本模块的函数
+  return '我是来自index.js的函数'
+}
 Page({
+
 
   /**
    * 页面的初始数据
    */
   data: {
-    a: 1, //修改绑定的普通数据的值
-    b: 2,
-    c: 3,
-    Student: { //修改绑定的对象数据的值
-      stuID: '1',
-      name: '李2',
-      birthday: '2001-5-1'
-    },
-    array: [ //修改绑定的数组数据的值
-      '20181',
-      '20291',
-      '20301'
-    ]
-  },
-  modify: function() { //事件函数
-    this.setData({ //修改绑定数据的值
-      a: 100, //修改绑定的普通数据的值
-      b: 200,
-      c: 300,
-      Student: { //修改绑定的对象数据的值
-        stuID: '20190213',
-        name: '李四',
-        birthday: '2001-9-1'
-      },
-      array: [ //修改绑定的数组数据的值
-        '2018',
-        '2029',
-        '2030'
-      ]
+    msg1: app.globalMsg, //全局变量
+    msg2: app.globalFunc(), //全局函数
+    msg3: indexMsg, //本模块变量
+    msg4: indexFunc(), //本模块函数
+    msg5: util.utilMsg, //使用utiltest中变量
+    msg6: util.utilFunc() //使用utiltest中函数
 
-    })
   },
 
   /**
@@ -49,7 +32,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function() {
-    // this.modify()
+
   },
 
   /**
