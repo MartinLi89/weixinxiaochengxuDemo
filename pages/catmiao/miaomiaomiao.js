@@ -6,7 +6,7 @@ Page({
    */
   data: {
 
-    imgSrc: "aaaabb"
+    imgSrc: ""
 
   },
 
@@ -42,7 +42,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function() {
-   
+
   },
 
   /**
@@ -68,7 +68,9 @@ Page({
   startss: function() {
 
     console.log("ok")
-    this.imgSrc = "cccdd"
+    this.setData({
+      imgSrc: '../../images/test.jpg'
+    })
 
   }
 })

@@ -1,2 +1,14 @@
 <!--pages/indexaa/indexaa.wxml-->
-<text>pages/indexaa/indexaa.wxml</text>
+<view class="box">
+  <view class="title">功能列表</view>
+  <block wx:for='{{demoList}}' wx:for-index="index" wx:for-item="item" wx:key='index'>
+
+    <view class="demo_lisst" bindtap="onClick" data-index='{{index}}' data-item='{{item}}'>{{item.name}}</view>
+
+  </block>
+
+
+
+
+
+</view>

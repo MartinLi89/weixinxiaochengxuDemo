@@ -1,1 +1,13 @@
 /* pages/indexaa/indexaa.wxss */
+
+.demo_lisst {
+  width: 100%;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  display: flex;
+  height: 80rpx;
+  border-bottom: 1px solid #dbdbdb;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

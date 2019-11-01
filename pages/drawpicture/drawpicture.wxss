@@ -1,0 +1,19 @@
+/* pages/drawpicture/drawpicture.wxss */
+
+button {
+  type: 'primary';
+  width: 100px;
+}
+
+canvas {
+  width: 100%;
+  height: 340px;
+  background-color: cornflowerblue;
+}
+
+.btnLayout {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-around; /*弹性项目沿主轴方向平均分布,两边留一半的间隔空间*/
+}

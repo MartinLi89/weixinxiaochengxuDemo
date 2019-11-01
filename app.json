@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/indexaa/indexaa",
+    "pages/drawpicture/drawpicture",
     "pages/facechange/facechange",
     "pages/imagepicture/imagepicture",
     "pages/sanjiliandong/sanjiliandong",
@@ -9,7 +11,7 @@
     "pages/colorif/colorif",
     "pages/modulechange/modulechange",
     "pages/databind/databinds",
-    "pages/indexaa/indexaa",
+   
     "pages/keyan/keyan",
     "pages/zixun/zixun",
     "pages/guanyu/guanyu",

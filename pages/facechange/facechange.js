@@ -34,7 +34,7 @@ Page({
    */
   onLoad: function(options) {
     var that = this
-    var inde=createRandomIndex(2)+1;
+    var inde=createRandomIndex(4)+1;
     HttpUtils.getImageSorce(url + inde)
       .then(function(data) {
         console.log(data)

@@ -5,5 +5,5 @@
     <input placeholder="请输入摄氏温度" type="digit" bindblur="calc" > </input>
   </view>
   <view>华氏温度为:{{F}}</view>
-  <button type="primary" bindtap="teaaa">aa</button>
+  <button type="primary" bindtap="teaaa">转换</button>
 </view>

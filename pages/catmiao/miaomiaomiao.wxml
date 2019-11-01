@@ -6,6 +6,6 @@
     猫图
   </view>
   <view>
-    {{imgSrc}}
+    <image src="{{imgSrc}}" mode="aspectFit"></image>
   </view>
 </view>
