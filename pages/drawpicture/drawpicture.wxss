@@ -17,3 +17,7 @@ canvas {
   margin: 10px;
   justify-content: space-around; /*弹性项目沿主轴方向平均分布,两边留一半的间隔空间*/
 }
+
+.changeBc{
+  background: #f00;
+}

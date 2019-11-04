@@ -8,6 +8,14 @@ Page({
     demoList: [
       
       {
+        name: "自由绘制",
+        path: "../freedomdraw/freedomdraw"
+
+      },{
+        name: "绘制正弦曲线",
+        path: "../drawsinline/drawsinline"
+
+      },{
         name: "基本绘图",
         path: "../drawpicture/drawpicture"
 

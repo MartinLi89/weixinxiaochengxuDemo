@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/indexaa/indexaa",
+    "pages/freedomdraw/freedomdraw",
     "pages/drawpicture/drawpicture",
+    "pages/drawsinline/drawsinline",
     "pages/facechange/facechange",
     "pages/imagepicture/imagepicture",
     "pages/sanjiliandong/sanjiliandong",
