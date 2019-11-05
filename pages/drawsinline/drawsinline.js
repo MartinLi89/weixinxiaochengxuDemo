@@ -13,7 +13,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
+
     this.drawSinX()
+
   },
   drawDot: function(x, y) {
 
@@ -25,6 +27,14 @@ Page({
   drawSinX: function() {
     for (var x = 0; x < 2 * Math.PI; x += Math.PI / 180) {
       var y = Math.sin(x);
+      this.drawDot(10 + 50 * x, 60 + 50 * y)
+
+    }
+  },
+  drawCos:function(){
+    
+    for (var x = 0; x < 2 * Math.PI; x += Math.PI / 180) {
+      var y = Math.cos(x);
       this.drawDot(10 + 50 * x, 60 + 50 * y)
 
     }

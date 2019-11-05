@@ -7,7 +7,20 @@ Page({
   data: {
     demoList: [
       
+
       {
+        name: "位置和地图",
+        path: "../locationandmap/locationandmap"
+
+      },{
+        name: "照相和摄像",
+        path: "../photoandcamera/photoandcamera"
+
+      },{
+        name: "自定义动画",
+        path: "../defineanimotion/defineanimotion"
+
+      }, {
         name: "自由绘制",
         path: "../freedomdraw/freedomdraw"
 

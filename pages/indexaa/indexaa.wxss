@@ -1,6 +1,6 @@
 /* pages/indexaa/indexaa.wxss */
 
-.demo_lisst {
+/* .demo_lisst {
   width: 100%;
   margin-top: 10rpx;
   font-size: 30rpx;
@@ -8,6 +8,47 @@
   height: 80rpx;
   border-bottom: 1px solid #dbdbdb;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .layouta {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rpx;
+  justify-content: space-between;
+}
+
+.demo_lisst{
+  width: 48%;
+  margin-bottom: 20rpx;
+} */
+
+.table {
+  display: grid;
+  width: 100%;
+  overflow-x: hidden;
+  /* 设置列、行大小 fr单位是等分分配列空间*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200rpx 200rpx;
+  /* 有多余数据时，自动添加新行时默认行高为：200rpx */
+  grid-auto-rows: 200rpx;
+  /* 设置网格线大小 */
+  grid-gap: 10rpx;
+}
+
+.table-th {
+  font-weight: bold;
+  background-color: #00ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.table-td {
+  background-color: #ccc;
+  display: flex;
   justify-content: center;
   align-items: center;
 }

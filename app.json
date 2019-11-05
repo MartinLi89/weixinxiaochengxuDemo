@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/indexaa/indexaa",
+    "pages/locationandmap/locationandmap",
+    "pages/photoandcamera/photoandcamera",
+    "pages/defineanimotion/defineanimotion",
     "pages/freedomdraw/freedomdraw",
     "pages/drawpicture/drawpicture",
     "pages/drawsinline/drawsinline",

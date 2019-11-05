@@ -15,9 +15,10 @@ Page({
    */
   onLoad: function(options) {
     this.ctx = wx.createCanvasContext('myCanvas', this)
+    console.log(this.ctx)
   },
   touchStart: function(e) {
-    console.log('ok')
+   
     this.x1 = e.changedTouches[0].x;
     this.y1 = e.changedTouches[0].y;
     console.log(this.x1)

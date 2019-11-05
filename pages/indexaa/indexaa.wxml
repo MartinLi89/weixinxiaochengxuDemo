@@ -1,14 +1,15 @@
-<!--pages/indexaa/indexaa.wxml-->
+<!-- pages/indexaa/indexaa.wxml -->
 <view class="box">
   <view class="title">功能列表</view>
-  <block wx:for='{{demoList}}' wx:for-index="index" wx:for-item="item" wx:key='index'>
+  <view class="table">
+    <block wx:for="{{demoList}}" wx:key="index" wx:for-index="index" wx:for-item="item">
+      <view class="table-th" wx:if="{{index<3}}">{{item.name}}</view>
+      <view class="table-td" wx:else>{{item.name}}</view>
+    </block>
+    <!-- <block class="layouta"  wx:for='{{demoList}}' wx:for-index="index" wx:for-item="item" wx:key='index'>
 
     <view class="demo_lisst" bindtap="onClick" data-index='{{index}}' data-item='{{item}}'>{{item.name}}</view>
 
-  </block>
-
-
-
-
-
+  </block> -->
+  </view>
 </view>
